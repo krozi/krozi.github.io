@@ -1,0 +1,16 @@
+h1 {position:static;
+	border: 4px solid #FF0000;
+margin-left: 80px;
+margin-right: 80px;}
+
+ em {display:inline-block;
+margin-left: 80px;}
+
+div {
+    border: 4px solid #FF0000;
+	border-radius: 5px;
+	padding: 100px 100px 100px 100px;
+ 	margin: 20px 50px 10px 5px
+ }
+
+

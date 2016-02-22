@@ -1,0 +1,12 @@
+div {
+	position: relative;
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	margin-left: 80px;
+	margin-top: 80px;
+	text-align: center;
+	border: 10px solid #BBFFFF;
+	font-family:Gill Sans Extrabold, sans-serif;
+}

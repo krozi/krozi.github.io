@@ -1,0 +1,17 @@
+* {position:static;
+	border: 4px solid #8B4789;
+margin-left: 80px;
+margin-right: 80px;
+background-color: #FFE1FF;}
+
+ em {display:inline-block;
+margin-left: 80px;}
+
+p {
+    border: 4px solid #8B4789;
+	border-radius: 5px;
+	padding: 100px 100px 100px 100px;
+ 	margin: 20px 50px 10px 5px
+ }
+
+

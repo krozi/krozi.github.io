@@ -1,0 +1,18 @@
+h1 {margin-left: 500px;
+    position:fixed;
+    font-size: 200px;}
+
+
+div {
+    border: 1px dashed #8B7B8B;
+	border-radius: 10px;
+	padding: 40px 40px 40px 40px;
+ 	margin: 30px 30px 30px 30px;
+ 	display:inline-block;
+ 	font-family: sans-serif;
+ 	font-size: 15px;
+ 	background-color: #8B636C;
+ 	text-transform:uppercase;
+ }
+
+

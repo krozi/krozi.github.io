@@ -1,0 +1,15 @@
+h1 {position:static;
+margin-left: 80px;}
+
+ em {position:static;
+margin-left: 80px;}
+
+
+
+
+p  {
+	border: 2px solid black;
+	display:block;
+	margin-right: 80px;
+	margin-left: 80px;
+  } 
