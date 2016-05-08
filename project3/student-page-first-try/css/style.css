@@ -1,0 +1,112 @@
+html{ box-sizing: border-box;}
+* { margin:0; padding:0; box-sizing: inherit;}
+
+/* Global Styles */
+body {
+    background-color:black;
+    margin: 10px;
+    font-family:  Helvetica, arial, sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Typography */
+p {
+    font-family:'Open Sans', sans-serif;
+    color:#ffffff;
+    font-size: 15px; 
+}
+a {
+    color:#8c8c8c;
+}
+a:hover {
+     color:#ff6600;
+}
+
+/* Header + Navigation */
+
+nav p{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+header{
+    margin: 15px;
+}
+header h4{
+    font-size: 20px;
+    color:#ffffff;
+    font-family:'Open Sans', sans-serif;
+    margin-left: 30px;
+    border-bottom: 3px solid green;
+    width:90px;
+}
+
+header h1{
+    font-size: 100px;
+    color:#ffffff;
+    font-family:'Open Sans', sans-serif;
+    margin-bottom:2px; 
+}
+
+header ul li {
+    display:inline-block;
+    font-size: 15px;
+    color:#8c8c8c;
+}
+
+.intro {
+    max-width: 600px;
+    margin: 60px auto;
+    height: 100px;
+    margin-top: 30px;
+    font-size: 15px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+
+/* Layyout */
+.container{
+    max-width: 980px;
+    margin: 60px auto;
+}
+
+ul.thumbnails {
+}
+
+ul.thumbnails li.thumb{
+    margin: 15px;
+    width: 280px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+/* Footer */
+.footer {
+    position: fixed;
+    left: 0px;
+    display: relative;
+    opacity: 0.5;
+}
+
+.footer:hover {
+    opacity: 1;
+}
+
+/* Media Queries */
+@media screen and (max-width: 780px) {
+    nav{
+        position: fixed;
+        float: left;
+        bottom: 200px;
+    }
+    header nav{
+        margin: 0px 0px 5px;
+        display: block;
+    }
+}
